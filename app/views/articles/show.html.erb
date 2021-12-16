@@ -14,3 +14,41 @@
 
 <h2>Add a comment:</h2>
 <%= render 'comments/form' %>
+
+<p>---------------------------------------------------------</p>
+<h2>Getting visibility of @article</h2>
+
+<h3>Using debug:</h3>
+<%= debug @article %>
+
+<h3>Using inspect:</h3>
+<%= @article.inspect %>
+
+<p>---------------------------------------------------------</p>
+<h2>Getting visibility of @article.title</h2>
+
+<h3>Using debug:</h3>
+<%= debug @article.title %>
+
+<h3>Using inspect:</h3>
+<%= @article.title.inspect %>
+
+<p>---------------------------------------------------------</p>
+<h2>Getting visibility of @article.body</h2>
+
+<h3>Using debug:</h3>
+<%= debug @article.body %>
+
+<h3>Using inspect:</h3>
+<%= @article.body.inspect %>
+
+<p>---------------------------------------------------------</p>
+<h2>Getting visibility of @article.comments</h2>
+
+<h3>Using debug:</h3>
+<%= debug @article.comments %>
+
+<h3>Using inspect:</h3>
+<%= @article.comments.inspect %>
+
+<p>---------------------------------------------------------</p>
